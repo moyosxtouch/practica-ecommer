@@ -37,3 +37,7 @@ a {
   background-size: cover;
   height: 550px;
 }
+/** Categorias**/
+.listado-categorias {
+  display: grid;
+}
