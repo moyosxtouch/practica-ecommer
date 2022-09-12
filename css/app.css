@@ -220,3 +220,27 @@ img {
   flex-direction: column;
   justify-content: center;
 }
+/**Blog**/
+.contenedor-blog {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 4rem;
+}
+.entrada {
+  border-bottom: 2px solid #e1e1e1;
+  padding-bottom: 4rem;
+  margin-bottom: 2rem;
+}
+.entrada:last-of-type {
+  border: none;
+}
+.entrada-meta {
+  display: flex;
+  justify-content: space-between;
+}
+.entrada-meta p {
+  font-weight: bold;
+}
+.entrada-meta span {
+  color: #037bc0;
+}
