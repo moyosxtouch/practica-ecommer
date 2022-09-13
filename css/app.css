@@ -73,6 +73,7 @@ img {
   font-weight: 900;
   padding: 1rem;
   transition: background-color 0.3s ease-out;
+  text-align: center;
 }
 .btn:hover {
   background-color: #769c02;
@@ -81,6 +82,9 @@ img {
 /**Utilidades**/
 .text-center {
   text-align: center;
+}
+.max-width-30 {
+  max-width: 30rem;
 }
 /** Categorias**/
 .categorias {
@@ -243,4 +247,22 @@ img {
 }
 .entrada-meta span {
   color: #037bc0;
+}
+.contenido-entrada-blog {
+  width: 60rem;
+  margin: 0 auto;
+}
+/**Galeria**/
+.galeria {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.galeria img {
+  height: 40rem;
+  width: 40rem;
+  object-fit: cover;
 }
