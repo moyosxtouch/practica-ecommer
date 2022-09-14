@@ -283,4 +283,12 @@ img {
   text-transform: uppercase;
   font-weight: 900;
   padding: 1rem;
+  margin-bottom: 4rem;
+}
+.campo {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.campo label {
+  flex-basis: 10rem;
 }
